@@ -1,0 +1,46 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 1rem;
+    background: #fff;
+    transition: box-shadow 0.2s ease;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    flex: 1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #111827;
+}
+
+.age {
+    font-size: 0.95rem;
+    color: #4b5563;
+    margin-left: 0.4rem;
+}
+
+.condition {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-top: 0.2rem;
+    font-style: italic;
+}

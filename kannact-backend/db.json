@@ -1,0 +1,45 @@
+{
+  "patients": [
+    {
+      "id": "516",
+      "name": "ramon ramirez",
+      "age": "23",
+      "primaryCondition": "colesterol muy bajo",
+      "notes": []
+    },
+    {
+      "id": "203",
+      "name": "juan gonzales",
+      "age": 45,
+      "primaryCondition": "sistema endocrino",
+      "notes": []
+    },
+    {
+      "id": "369",
+      "name": "maria sanchez",
+      "age": 72,
+      "primaryCondition": "hipotiroidismo",
+      "notes": []
+    },
+    {
+      "id": "903",
+      "name": "lucia luis",
+      "age": 35,
+      "primaryCondition": "diabetes tipo 2",
+      "notes": []
+    },
+    {
+      "id": "53",
+      "name": "mari carmen ruiz",
+      "age": "79",
+      "primaryCondition": "presion muy alta",
+      "notes": [
+        {
+          "id": 877,
+          "content": "andar muchos pasos",
+          "date": "2025-04-23T09:39:02.476Z"
+        }
+      ]
+    }
+  ]
+}
